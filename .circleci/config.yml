@@ -8,7 +8,7 @@ jobs:
     executor:
       name: android/android-machine
       resource-class: large
-      tag: current
+      tag: default
     steps:
       - checkout
 
